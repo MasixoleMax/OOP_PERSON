@@ -11,6 +11,6 @@ class Person {
     }
 }
 
-let max = new Person ('Max', 25, 'Male', ["playing soccer and coding"]);
+let max = new Person ('Max', 26, 'Male', ["playing soccer and coding"]);
 
 console.log(max.hello());
