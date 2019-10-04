@@ -14,3 +14,6 @@ describe("the Person class as a new object", function() {
         expect(masixole.hello()).toBe('Hello, my name is Yoliswa and I am a 26 year old female. My interests are housekeeping, playing tennis and singing.');
      });
 });
+       expect(max.hello('Max', 25, 'Male', ["playing soccer and coding"])).toBe('Hello, my name is Max and I am a 26 year old Male. My interests are playing soccer and coding.');
+    })
+})
